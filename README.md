@@ -49,7 +49,7 @@ Users should be able to:
 ## 🚀 Live Deploys
 
 - Solution URL: [code](https://github.com/devcjoha/dashboard-social-media)
-- Live Site URL: [Deploy-Github-Pages]()
+- Live Site URL: [Deploy-Github-Pages](https://devcjoha.github.io/dashboard-social-media/)
 
 
 ## My process
