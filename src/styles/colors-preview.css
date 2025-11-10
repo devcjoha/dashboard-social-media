@@ -1,0 +1,26 @@
+.nada {
+  --color-green-500: #1db489;
+  --color-red-500: #dc414c;
+  --color-blue-600-facebook: #198ff5;
+  --color-pink-500: #ee2a7b;
+  --color-x-gray-950: #1e202a;
+  --color-red-700-youtube: #c4032a;
+
+  --color-bg-toggle: #aeb2cb;
+
+  --color-linear-gradient-inst: linear-gradient(180deg, #f9ce34 0%, #ee2a7b 0%, #6228d7 0%);
+  --color-linear-gradient-toggle: linear-gradient(180deg, #198ff5 0%, #1db489);
+  /*Light Theme*/
+  --color-white-bg: #ffffff;
+  --color-top-bg-pattern: #f5f7ff;
+  --color-card-bg-navy: #f0f2fa;
+  --color-text-gray-650: #838695;
+  --color-text-gray-950: #1e202a;
+  /*dark theme*/
+  --color-bg-gray-950: #1e202a;
+  --color-top-bg-pattern: #1f212e;
+  --color-card-bg-navy: #252a41;
+  --color-text-gray-400: #aeb3cb;
+  --color-text-white: #ffffff;
+}
+

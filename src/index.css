@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* @import "./styles/base.css"; */
+@import "./styles/components.css";
+/* @import "./styles/utilities.css"; */
+
+body {
+  margin: 0;
+  min-height: 619px;
+  font-family: var(--font-family, sans-serif);
+  box-sizing: border-box;
+  overflow-x: hidden;
+    @apply bg-white-bg dark:bg-gray-950 min-h-screen;
+}
+@theme {
+  /*Colors Primary*/
+ --color-green-500: #1db489;
+  --color-red-500: #dc414c;
+  --color-blue-600-facebook: #198ff5;
+  --color-pink-500: #ee2a7b;
+  --color-inst-from: #f9ce34;
+  --color-inst-to: #6228d7;
+  --color-x-gray-950: #1e202a;
+  --color-red-700-youtube: #c4032a;
+
+  --color-bg-toggle: #aeb2cb;
+
+  --color-linear-gradient-inst: linear-gradient(180deg, #f9ce34 0%, #ee2a7b 0%, #6228d7 0%);
+  --color-linear-gradient-toggle: linear-gradient(180deg, #198ff5 0%, #1db489);
+
+  --container-sm: 375px;
+  --container-lg: 1440px;
+
+  /*Typography*/
+  --text-size-12: 0.75rem;
+  --text-size-14: 0.875rem;
+  --text-size-16: 1rem;
+  --text-size-18: 1.125rem;
+  --text-size-20: 1.25rem;
+  --text-size-24: 1.5rem;
+  --text-size-32: 2rem;
+  --text-size-40: 2.5rem;
+  --text-size-48: 3rem;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-family: "Inter", sans-serif;
+
+  /*Light Theme*/
+}
+@theme light {
+  --color-white-bg: hsl(0, 100%, 100%);
+  --color-top-bg-pattern-light: hsl(230, 75%, 98%);
+  --color-card-bg-navy-light: hsl(222, 50%, 96%);
+  --color-text-gray-650: hsl(228, 12%, 44%);
+  --color-text-gray-950: hsl(230, 17%, 14%);
+--color-hover-bg-card: #e1e3f0;
+
+}
+@theme dark {
+  --color-bg-gray-950: hsl(230, 17%, 14%);
+  --color-top-bg-pattern: hsl(232, 19%, 15%);
+  --color-card-bg-navy: hsl(228, 28%, 20%);
+  --color-text-gray-400: hsl(230, 22%, 74%);
+  --color-text-white: hsl(0, 0%, 100%);
+}
