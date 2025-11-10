@@ -5,7 +5,7 @@ export default function useOverviewData() {
   const [loading, setLoading] = useState(true);
   const BASE_PATH = import.meta.env.BASE_URL;
   useEffect(() => {
-    fetch("/data/overview.json")
+    fetch(`${BASE_PATH}data/overview.json`)
       .then((res) => res.json())
       .then((data) => {
         const newData = data.map((item) => {

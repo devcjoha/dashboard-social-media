@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
     tailwindcss/postcss(),
   ],
-  base: "/dashboard-social-media/npm"
+  base: "/dashboard-social-media/"
 })

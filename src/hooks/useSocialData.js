@@ -6,7 +6,7 @@ export default function useSocialData() {
   const BASE_PATH = import.meta.env.BASE_URL;
 
   useEffect(() => {
-    fetch("/data/social.json")
+    fetch(`${BASE_PATH}data/social.json`)
       .then((res) => res.json())
       .then((data) => {
         const newData = data.map((item) => {
