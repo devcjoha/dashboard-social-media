@@ -1,0 +1,58 @@
+[
+  {
+    "platform": "Facebook",
+    "metric": "Page Views",
+    "value": 87,
+    "change": 3,
+    "icon": "icon-facebook.svg"
+  },
+   {
+    "platform": "Facebook",
+    "metric": "Likes",
+    "value": 120,
+    "change": 85,
+    "icon": "icon-facebook.svg"
+  },
+  {
+    "platform": "Instagram",
+    "metric": "Likes",
+    "value": 5462,
+    "change": -225,
+    "icon": "icon-instagram.svg"
+  },
+  {
+    "platform": "Instagram",
+    "metric": "Profile Views",
+    "value": 52000,
+    "change": 1375,
+    "icon": "icon-instagram.svg"
+  },
+  {
+    "platform": "x",
+    "metric": "Retweets",
+    "value": 117,
+    "change": 303,
+    "icon": "icon-x.svg"
+  },
+    {
+    "platform": "x",
+    "metric": "Likes",
+    "value": 507,
+    "change": 553,
+    "icon": "icon-x.svg"
+  },
+  {
+    "platform": "YouTube",
+    "metric": "Likes",
+    "value": 107,
+    "change": -19,
+    "icon": "icon-youtube.svg"
+  },
+   {
+    "platform": "YouTube",
+    "metric": "Total Views",
+    "value": 1407,
+    "change": -12,
+    "icon": "icon-youtube.svg"
+  }
+]

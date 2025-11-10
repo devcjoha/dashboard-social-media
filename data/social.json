@@ -1,0 +1,34 @@
+[
+  {
+    "platform": "Facebook",
+    "username": "@carla.dev",
+    "followers": 198000,
+    "change": 12,
+    "icon": "icon-facebook.svg",
+    "color": "blue-600-facebook"
+  },
+  {
+    "platform": "x",
+    "username": "@carlitajohanna",
+    "followers": 104000,
+    "change": -5,
+    "icon": "icon-x.svg",
+    "color": "x-gray-950"
+  },
+  {
+    "platform": "Instagram",
+    "username": "@carla.designs",
+    "followers": 250000,
+    "change": 20,
+    "icon": "icon-instagram.svg",
+    "color": "pink-500"
+  },
+  {
+    "platform": "YouTube",
+    "username": "Carla Dev",
+    "followers": 72000,
+    "change": -3,
+    "icon": "icon-youtube.svg",
+    "color": "red-700-youtube"
+  }
+]
