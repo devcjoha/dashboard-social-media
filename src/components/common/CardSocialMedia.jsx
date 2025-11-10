@@ -6,8 +6,12 @@ function CardSocialMedia({
   followers,
   change,
   icon,
-  color,
 }) {
+  const borderColors = {
+  "Facebook": "border-[#198ff5] dark:border-[#198ff5]",
+  "x": "border-x-gray-950 dark:border-white",
+  "YouTube": "border-[#c4032a] dark:border-[#c4032a]",
+};
   const formatFollowers = (num) => {
     return num >= 1000 ? (num / 1000).toFixed() + "K" : num;
   };
@@ -17,7 +21,7 @@ function CardSocialMedia({
       <div
         className={
           platform !== "Instagram"
-            ? `card-media-container w-90 lg:w-65 h-55 border-t-[.3rem] border-${color} rounded-md 
+            ? `card-media-container w-90 lg:w-65 h-55 border-t-[.3rem] ${borderColors[platform]} rounded-md 
             dark:bg-card-bg-navy bg-card-bg-navy-light hover:bg-hover-bg-card dark:hover:bg-gray-700 cursor-pointer`
             : `card-media-container w-90 lg:w-65 h-55  rounded-md 
             dark:bg-card-bg-navy bg-card-bg-navy-light hover:bg-hover-bg-card dark:hover:bg-gray-700 cursor-pointer`

@@ -2,7 +2,7 @@ function ModeToggle({ handleToggle, darkMode }) {
   return (
     <>
       <div className="mode-toggle relative flex items-center w-12 h-6 not-firts:select-none 
-      transition duration-200 easy-in">
+      transition duration-200 ease-in">
         <input
           type="checkbox"
           checked={!darkMode ? "checked" : ""}

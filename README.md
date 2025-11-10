@@ -30,24 +30,16 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="./public/" width="300" alt="desktopLight" />
+  <img src="./public/solution-desktop-light.jpg" width="400" alt="desktopLight" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="desktopdark" />
+  <img src="./public/solution-desktop-dark.jpg" width="300" alt="desktopdark" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="detaillight" />
+  <img src="./public/solution-mobile-light.jpg" width="200" alt="detaillight" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="detaildark" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="focuslight" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="focusdark" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="mobilelight" />
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/" width="300" alt="mobiledark" />
+  <img src="./public/solution-mobile-dark.jpg" width="200" alt="detaildark" />
 </p>
 
-## Author
+## Authorsi, completemos las
 
 - Website - [Carla Johanna](https://github.com/devcjoha)
 - Frontend Mentor - [@devcjoha](https://www.frontendmentor.io/profile/devcjoha)
@@ -56,8 +48,8 @@ Users should be able to:
 
 ## 🚀 Live Deploys
 
-- Solution URL: [code](https://github.com/devcjoha/browser-extension-manager-ui/tree/gh-pages/assets)
-- Live Site URL: [Deploy-Github-Pages](https://devcjoha.github.io/browser-extension-manager-ui/)
+- Solution URL: [code](https://github.com/devcjoha/dashboard-social-media)
+- Live Site URL: [Deploy-Github-Pages]()
 
 
 ## My process
@@ -70,10 +62,6 @@ Users should be able to:
 <img src="./public/tailwind.svg" alt="tailwind" width="50px" />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./public/vite.svg" alt="vite" width="50px" />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./public/react-router.svg" alt="react-routerd" width="50px" />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./public/vercel-iconb.svg" alt="vercel" width="50px" />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./public/github.svg" alt="githubPages" width="55px" />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -93,13 +81,27 @@ Users should be able to:
 
 
 ### 👩🏻‍🦱 What I learned
-* 
+* Use useEffect to calculate dynamic metrics like total followers, avoiding unnecessary loops.
+* Apply .toLocaleString() and custom functions like formatValue() to display numbers with thousands separators or suffixes (K).
+* Encapsulate logic in reusable components (CardSocialMedia, CardOverviews, ModeToggle) and pass props clearly.
+* Implement an accessible toggle with peer, appearance-none, and ```translate-x``` to animate the state change.
+* Use ```bg-gradient-to-r``` and ```p-[2px]``` to simulate gradient borders, especially on the Instagram card.
+* Resolve alignment issues with items-center, self-end, and leading-none to achieve a clean and consistent layout.
+* Configure routes and assets correctly for GitHub Pages using ```import.meta.env.BASE_URL```.
 
 
 ### 💥 Continued development
-* 
+* Encapsulate the cards as semantic components (MetricCard, PlatformCard) with platform-specific variations.
+* Add smooth animations when switching modes (transition, ease-in/out) and when loading metrics.
+* Validate accessibility using tools like Lighthouse and improve contrast in dark mode.
+* Create a design system with documented tokens for colors, sizes, and spacing.
+* Prepare a starter kit with this system for future projects, including a basic layout, toggles, and asset management.
+* Explore how to integrate real data from a mock or external API to make the dashboard dynamic.
 
-
+### 🔗 Useful resources
+* Tailwind docs
+* GitHub Pages deployment guides
+* Vite + React integration tips
 
 ## 🚀 Deployment & Environment Setup
 
